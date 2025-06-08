@@ -1,18 +1,16 @@
-# Saved models
+# 模型文件夹
 /saved*
+saved
 *.pth
-
+# 环境文件
 .vscode/
 .idea/
+# 日志和编译文件
 *.pyc
 *.log
 log_tensorboard
-saved/
 *.lprof
-*.egg-info/
-docs/build/
 wandb/*
-/ray_log*
-
-local_test/
-/dataset/
+#测试文件
+/local_test
+/test
